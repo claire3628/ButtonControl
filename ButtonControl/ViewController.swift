@@ -80,6 +80,7 @@ class ViewController: UIViewController {
         gSlider.value = 0.8
         bSlider.value = 0.5
         showImage.isHidden = false
+        showImage.image = UIImage(systemName: "tree.fill")
         showImage.transform = showImage.transform.translatedBy(x: 0, y: 0)
         showImage.transform = CGAffineTransform(scaleX: 1, y: 1)
         showImage.tintColor = UIColor(red: CGFloat(rSlider.value), green: CGFloat(gSlider.value), blue: CGFloat(bSlider.value), alpha: 1.0)
